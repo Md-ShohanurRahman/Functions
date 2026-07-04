@@ -27,8 +27,6 @@ bool isPalindrome(int n){
     }
 
 }
-
-
     
 int main (){
    isPalindrome(121);
