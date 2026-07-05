@@ -18,11 +18,11 @@ int reverseNum(int n ){
 
 bool isPalindrome(int n){
     if(reverseNum(n)==n){
-        cout<<true<<endl;
+        cout<< n<<" : This number is Palindrome "<<endl;
         return true;
     }
     else{
-        cout<<false<<endl;
+        cout<<n<<" : This number is not  Palindrome "<<endl;
        return false; 
     }
 

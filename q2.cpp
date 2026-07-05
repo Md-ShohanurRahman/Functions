@@ -4,12 +4,13 @@ using namespace std;
 
 int sumOfDigit (int n){
     int sum=0;
+    cout<<n;
     while(n>0){
      int lastDigit=n%10;
       sum=sum+lastDigit;
       n=n/10;  
     }
-    cout<<sum<<endl;
+    cout<<" : The Sum of digit of the number is : "<<sum<<endl;
     return sum ;
 }
 
